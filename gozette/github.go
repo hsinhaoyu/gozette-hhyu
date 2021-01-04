@@ -14,8 +14,8 @@ var ctx context.Context
 var sourceOwner = "hsinhaoyu"
 var authorName = "Hsin-Hao Yu"
 var authorEmail = "hsinhoahh.yu@@gmail.com"
-var sourceRepo = "hhyu_test"
-var branch = "main"
+var sourceRepo = "hhyu_site"
+var branch = "master"
 
 func CommitEntry(path string, file string) error {
 	client := connectGitHub()
