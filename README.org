@@ -3,6 +3,8 @@
 * About
 This is a forked version of [[https://colelyman.com][Cole Lyman]]'s [[https://github.com/Colelyman/gozette][gozette]] -  a  Micropub server written in Go, primarily designed for static sites. I slightly modified it for my needs. See [[https://www.hhyu.org/about_site/][this tutorial]] about what I did. The following is from README.org of the original version.
 
+Set your GitHub API token in the `Environment:` section of `template.yaml`. Remember that after the function has been deployed to AWS Lambda, remove it from `template.yaml`. If the token is not removed before this repo is pushed to GitHub, GitHub will revoke this token.
+
 * About - original
 =gozette= was designed with static sites in mind (specifically sites generated
 using [[https://gohugo.io][Hugo]]). However, in principle =gozette= can be extended to other static
